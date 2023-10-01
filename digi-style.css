@@ -1,0 +1,241 @@
+*{
+    direction: rtl;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: yekan;
+}
+@font-face {
+    font-family: yekan;
+    src: url(fonts/yekan.woff);
+}
+.container-fluid{
+    max-width: 1220px;
+}
+a:hover{
+    text-decoration: none;
+}
+#head-tools a{
+    color:#777;
+    text-decoration: none;
+}
+#head-tools{
+    font-size: 26px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-decoration: none;
+}
+#head-tools a:hover{
+    color: red;
+}
+#head-tools .badge{
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+    font-size: 18px;
+    opacity: 0.8;
+}
+#basket a{
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    overflow: hidden;
+}
+#basket .basket-icon{
+    background-color: #6C6;
+    padding: 10px 15px;
+}
+#basket .basket-text{
+    padding: 10px 15px;
+    background-color: #4b5;
+}
+#search{
+    width: 300px;
+}
+#second-search{
+    width: 200px;
+}
+#top-menu{
+    font-size: 14px;
+    position: relative;
+}
+#top-menu nav{
+    padding: 8px;
+}
+#top-menu .nav-link{
+    color: #555;
+    padding: 6px 15px;
+}
+#top-menu .nav-link:hover{
+    color: black;
+}
+#main{
+    background-color: #eeeff1;
+    padding: 8px 0;
+}
+.section-box{
+    border-radius: 4px;
+    overflow: hidden;
+    background-color: white;
+    margin-bottom: 12px;
+    box-shadow: 0 0 4px 0 rgba(0 , 0 , 0 , 0.15);
+}
+.section-header h3{
+    font-size: 15px;
+    padding: 10px 5px;
+}
+.box-content{
+    padding: 10px;
+}
+.box-content a{
+    text-decoration: none;
+    font-size: 15px;
+    /* color: black; */
+}
+.my-shadow {
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 10%);
+}
+.media img:hover{
+    box-shadow: 0 0 4px 2px rgba(255 , 0 , 0 , 0.3);
+}
+.media-body a:hover{
+    color: red;
+}
+.media-body h6 a{
+    font-size: 12px;
+    color:  #333;;
+}
+.media-body span{
+    font-size: 11px;
+}
+/* #topslider{
+    border-radius: 4px;
+    position: relative;
+}
+#topslider footer{
+    position: absolute;
+    right: 0;
+    left: 0;
+    background-color: rgba(60, 70, 90,0.8);
+}
+.carousel-indicators{
+    position: static;
+    overflow: hidden;
+}
+#topslider footer ol{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    height: 50px;
+}
+#topslider footer li{
+    width: 20%;
+    color: white;
+    font-size: 12px;
+    height: 100%;
+    text-align: center;
+    text-indent: 0;
+    padding-top: 10px;
+    transition-duration: 0.2s;
+    background-color: transparent;
+    margin: 0;
+}
+#topslider footer li.active{
+    background-color: white;
+    color: #444;
+}
+#topslider footer li.active::before {
+    content: "";
+    position: absolute;
+    top: -20px;
+    right: 50%;
+    margin-right: -10px;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-bottom-color: white;
+} */
+.owl-carousel{
+    border: 1px solid #eee;
+    padding: 10px 0;
+}
+.owl-carousel .card-img-top{
+    padding: 10px;
+}
+.owl-carousel h6{
+    font-size: 12px;
+}
+.owl-carousel .owl-nav button{
+    position: absolute;
+    font-size: 50px !important;
+    top: 30%;
+    color: #777 !important;
+}
+.owl-carousel .owl-nav button:hover{
+    color: black !important;
+}
+.owl-carousel .owl-next {
+    left: 0;
+}
+#topfooter{
+    font-size: 13px;
+}
+#topfooter li{
+    font-size: 19px;
+    margin-left: 10px;
+}
+#mainfooter{
+    background-color: #111;
+    padding-top: 30px;
+}
+#mainfooter h5{
+    font-size: 16px;
+    color: #eee;
+    padding-bottom: 15px;
+}
+#mainfooter ul a{
+    color: #bbb;
+    text-decoration: none !important;
+    line-height: 2.5em;
+}
+#mainfooter ul a:hover{
+    color: #eee;
+}
+#footerform{
+    display: flex;
+}
+#footerform input{
+    width: 400px;
+}
+#mainfooter .social a{
+    width: 35px;
+    height: 35px;
+    background-color: #333;
+    line-height: 2.5em;
+    color: white;
+    border-radius: 50px;
+    margin: 0 8px;
+    transition: 0.2s;
+    display: inline-block;
+}
+#mainfooter .social a:hover{
+    background-color: #6d6;
+}
+@media only screen and (max-width:425px) {
+    #footerform input{
+        width: 250px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    #head-tools{
+        font-size:15px;
+        padding-right:10px;
+    }    
+}
+@media only screen and (min-width: 1440px) {
+    #search{
+        width: 500px;
+    }  
+}
